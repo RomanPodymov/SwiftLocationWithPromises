@@ -11,7 +11,7 @@ import SwiftLocation
 import Dispatch
 
 extension RequestProtocol {
-    public func asPromise(queue: DispatchQueue) -> Promise<ProducedData> {
+    public func asPromise(queue: DispatchQueue = .main) -> Promise<ProducedData> {
         .init { resolver in
             _ = then(queue: queue) { result in
                 resolver.resolve(result)
