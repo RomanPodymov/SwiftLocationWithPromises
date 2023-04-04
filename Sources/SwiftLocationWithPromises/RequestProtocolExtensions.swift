@@ -8,11 +8,12 @@
 
 import PromiseKit
 import SwiftLocation
+import Dispatch
 
 extension RequestProtocol {
-    public var asPromise: Promise<ProducedData> {
+    public func asPromise(queue: DispatchQueue) -> Promise<ProducedData> {
         .init { resolver in
-            then { result in
+            _ = then(queue: queue) { result in
                 resolver.resolve(result)
             }
         }
