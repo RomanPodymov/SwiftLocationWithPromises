@@ -1,0 +1,2 @@
+# SwiftLocationWithPromises
+SwiftLocation + PromiseKit
