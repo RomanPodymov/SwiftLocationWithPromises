@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/malcommac/SwiftLocation.git",
       "state" : {
-        "revision" : "010073e62cea4daefea61042a51b8619d23cdc35",
-        "version" : "6.0.0"
+        "revision" : "f8ec8e97095eb3a5312370ad94b921768217625f",
+        "version" : "5.1.0"
       }
     }
   ],

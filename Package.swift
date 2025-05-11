@@ -18,7 +18,7 @@ let package = Package(
     
     dependencies: [
         .package(url: "https://github.com/mxcl/PromiseKit.git", from: "8.2.0"),
-        .package(url: "https://github.com/malcommac/SwiftLocation.git", from: "6.0.0")
+        .package(url: "https://github.com/malcommac/SwiftLocation.git", from: "5.1.0")
     ],
     
     targets: [
