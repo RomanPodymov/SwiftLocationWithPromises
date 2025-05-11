@@ -7,7 +7,7 @@ let package = Package(
     platforms: [
         .iOS(.v11),
         .tvOS(.v11),
-        .macOS(.v10_13)
+        .macOS(.v11)
     ],
     
     products: [
@@ -18,7 +18,7 @@ let package = Package(
     
     dependencies: [
         .package(url: "https://github.com/mxcl/PromiseKit.git", from: "8.2.0"),
-        .package(url: "https://github.com/malcommac/SwiftLocation.git", from: "5.1.0")
+        .package(url: "https://github.com/malcommac/SwiftLocation.git", from: "6.0.0")
     ],
     
     targets: [
